@@ -21,8 +21,12 @@ subtotal = price * quantity # subtotal of products without taxes
 tax = subtotal * (tax_rate / 100 ) # Tax
 
 total = subtotal + tax # total of products and Taxes
-print("-------------------- Receipt --------------------")
-print(" Price of item: $", price, "\n Quantity: ", quantity, "\n Tax rate: ", tax_rate, "%")
-print("\n Subtotal: $", subtotal, "\n Tax: $", tax, "\n Total $", total)
-print("-----------",current_time.now(), "-----------")
 
+print("------------------- Receipt -------------------")
+print(f"Price of item: ${price:.2f}")
+print(f"Quantity: {quantity}")
+print(f"Tax rate: {tax_rate}%")
+print(f"\nSubtotal: ${subtotal:.2f}")
+print(f"Tax: ${tax:.2f}")
+print(f"Total: ${total:.2f}")
+print(f"------------ {datetime.now()} ------------")
