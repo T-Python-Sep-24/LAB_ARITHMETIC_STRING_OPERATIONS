@@ -28,7 +28,6 @@ Tax: $0.67
 Total: $9.64
 ```
 
-
 ## Bonus, create a new python file and do the following:
 
 - Define a string variable containing a sentence with at least 10 words.
