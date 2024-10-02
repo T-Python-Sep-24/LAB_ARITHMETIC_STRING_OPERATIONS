@@ -17,9 +17,9 @@ tax = subtotal * (taxRate/100)
 total = subtotal + tax
 
 #Printing the results 
-print("Price of items:", price)
+print(f"Price of items: ${price}")
 print("Quantity:", quantity)
 print(f"Tax rate: {taxRate}%")
-print("\nSubtotal:", subtotal)
-print("Tax:", round(tax,2))
-print("Total:", round(total,2))
+print(f"\nSubtotal: ${subtotal}")
+print(f"Tax: ${round(tax,2)}")
+print(f"Total: ${round(total,2)}")
