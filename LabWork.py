@@ -5,13 +5,13 @@ price = 7.77
 quantity = 7
 
 #Defining tax rate
-taxRate = "15"
+taxRate = 15
 
 #Calculating the total price of items without the tax
 subtotal = price * quantity
 
 #Calculating the tax
-tax = subtotal * (int(taxRate)/100)
+tax = subtotal * (taxRate/100)
 
 #Calculating final cost
 total = subtotal + tax
